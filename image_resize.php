@@ -3,8 +3,8 @@ session_start();
 ini_set('display_errors', 'Off');
 ini_set('display_startup_errors', 'Off');
 error_reporting(0);
-
-
+$_SESSION['app_path'] = "/you/application/path/";
+$_SESSION['username'] = "username";
 
 
 function orient_image($file_path) {
